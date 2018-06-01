@@ -1,0 +1,264 @@
+{
+"articles": [
+{
+"newsID" : 1,
+"source": {
+"id": "the-wall-street-journal",
+"name": "The Wall Street Journal"
+},
+"author": "Mike Bird",
+"title": "Europe Markets Steady Amid Political, Trade Tensions",
+"description": "European stocks were little changed in morning trading, following a selloff in Asia driven by Italy’s unfolding political drama and heightened global trade tensions.",
+"url": "https://www.wsj.com/articles/europe-markets-pause-amid-political-trade-tensions-1527665278",
+"urlToImage": "https://images.wsj.net/im-12418/social",
+"publishedAt": "2015-05-30T09:49:29Z"
+},
+{
+  "newsID" : 2,
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "Shona Ghosh",
+"title": "Evan Spiegel said it was 'frustrating' Snap hired scantily clad women dressed as deer for a party",
+"description": "Snap CEO Evan Spiegel said it was a 'wake-up call' when a female former employee sent an internal letter slamming the company's bro-like culture. On Tuesday, Spiegel also confirmed that his company had hired scantily clad women dressed as deer to serve appeti…",
+"url": "http://www.businessinsider.com/snap-ceo-evan-spiegel-responds-to-shannon-lubetich-diversity-email-2018-5",
+"urlToImage": "https://amp.businessinsider.com/images/5b0e6e991ae66255008b457f-640-320.jpg",
+"publishedAt": "2018-06-01T09:49:29Z"
+},
+{
+"newsID" : 3,
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Ivana Kottasová",
+"title": "Market pain; Italy turmoil; Trade war fears",
+"description": "Here's what you need to know about the markets before you start your business day.",
+"url": "http://money.cnn.com/2018/05/30/investing/premarket-stocks-trading/index.html",
+"urlToImage": "https://i2.cdn.turner.com/money/dam/assets/180530161304-nyse-traders-may-29-780x439.jpg",
+"publishedAt": "2018-05-30T08:51:00Z"
+},
+{
+"newsID" : 4,
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "Oscar Williams-Grut",
+"title": "Ad guru Sir Martin Sorrell is back, just 6 weeks after quitting WPP",
+"description": "Sir Martin Sorrell has formed a new investment vehicle, S4 Capital, which is coming to the stock market through a reverse merger. It comes just six weeks after Sorrell was forced out of WPP amid an investigation into allegations of improper behavior and misus…",
+"url": "http://www.businessinsider.com/sir-martin-sorrell-wpp-derriston-capital-s4-capital-2018-5",
+"urlToImage": "https://amp.businessinsider.com/images/5b0e55041ae6624b008b485a-640-320.jpg",
+"publishedAt": "2018-05-30T08:05:30Z"
+},
+{
+  "newsID" : 5,
+"source": {
+"id": "techcrunch",
+"name": "TechCrunch"
+},
+"author": "Jon Russell",
+"title": "Amazon begins nationwide expansion of Whole Foods discounts for Prime members",
+"description": "Amazon introduced 10 percent savings at Whole Foods for Prime members earlier this month, and today it kicked off a nationwide expansion of the initiative. The Prime Whole Foods discount — one of a number of measures following Amazon’s acquisition of Whole Fo…",
+"url": "https://techcrunch.com/2018/05/30/amazon-expands-whole-foods-discounts-for-prime-members/",
+"urlToImage": "https://techcrunch.com/wp-content/uploads/2017/08/gettyimages-840695982.jpg?w=600",
+"publishedAt": "2018-05-30T08:03:41Z"
+},
+{
+  "newsID" : 6,
+"source": {
+"id": null,
+"name": "Yahoo.com"
+},
+"author": null,
+"title": "China slams surprise US trade announcement, says ready to fight",
+"description": "SHANGHAI/BEIJING (Reuters) - China on Wednesday lashed out at Washington's unexpected statement that it will press ahead with tariffs and restrictions on investments by Chinese companies, saying Beijing was ready to fight back if Washington was looking to ign…",
+"url": "https://finance.yahoo.com/news/chinese-state-media-slam-u-trade-announcement-beijing-001618380--business.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/SIk5AH7Z6nJ4bLdyMTfrFg--~B/aD0zMTE7dz00NTA7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en_us/News/Reuters/2018-05-30T084859Z_11_LYNXNPEE4T00M_RTROPTP_2_USA-TRADE-CHINA.JPG",
+"publishedAt": "2018-05-30T07:56:53Z"
+},
+{
+  "newsID" : 7,
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Leslie Josephs",
+"title": "Flyers are actually more satisfied with (most) airlines in the US. Here's how carriers stack up",
+"description": "Air travelers are happier with U.S. airlines this year compared with last year, a J.D. Power survey showed.",
+"url": "https://www.cnbc.com/2018/05/30/flyers-are-actually-more-satisfied-with-most-airlines-in-the-us.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/05/29/105237563-GettyImages-877486652.1910x1000.jpg",
+"publishedAt": "2018-05-30T07:01:00Z"
+},
+{
+  "newsID" : 8,
+"source": {
+"id": "bloomberg",
+"name": "Bloomberg"
+},
+"author": "David Fickling",
+"title": "Diamonds Aren't Forever",
+"description": "Who wants to seal an engagement with something whose price makes it feel little better than costume jewelry?",
+"url": "https://www.bloomberg.com/view/articles/2018-05-30/de-beers-is-betting-cheap-diamonds-are-just-that",
+"urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/icjFZCt9VEzU/v1/1200x799.jpg",
+"publishedAt": "2018-05-30T06:33:34Z"
+},
+{
+  "newsID" : 9,
+"source": {
+"id": "the-new-york-times",
+"name": "The New York Times"
+},
+"author": "https://www.nytimes.com/by/zach-wichter",
+"title": "18 Hours and 45 Minutes: Longest Commercial Flight Returns to Service",
+"description": "Singapore Airlines hopes more efficient planes can make the route more economically viable than the last time it flew it, in 2013.",
+"url": "https://www.nytimes.com/2018/05/30/business/newark-singapore-longest-flight.html",
+"urlToImage": "https://static01.nyt.com/images/2018/05/30/business/30SINGAPORE/merlin_138828375_8d2c8b23-ea8a-43d3-89d1-5556b11ccf5b-facebookJumbo.jpg",
+"publishedAt": "2018-05-30T05:00:35Z"
+},
+{
+  "newsID" : 10,
+"source": {
+"id": "bloomberg",
+"name": "Bloomberg"
+},
+"author": "David McLaughlin, Lydia Mulvany, Naomi Kresge",
+"title": "Bayer Wins US Approval for Monsanto After Two-Year Quest",
+"description": "Bayer AG won U.S. antitrust approval for its $66 billion takeover of Monsanto Co., clearing the last major regulatory hurdle to forming the world’s biggest seed and agricultural-chemicals provider after a nearly two-year global review.",
+"url": "https://www.bloomberg.com/news/articles/2018-05-30/bayer-wins-u-s-approval-for-monsanto-following-two-year-quest",
+"urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iWxBm4VurfYQ/v0/1200x800.jpg",
+"publishedAt": "2018-05-30T04:16:13Z"
+},
+{
+  "newsID" : 11,
+"source": {
+"id": "the-washington-times",
+"name": "The Washington Times"
+},
+"author": "Valerie Richardson",
+"title": "Starbucks opens door to homeless, drug problems with anti-discrimination recipe",
+"description": "With its decision to allow the non-paying public unlimited access to its cafes, Starbucks may have traded one grande problem for another.",
+"url": "https://www.washingtontimes.com/news/2018/may/29/starbucks-anti-discrimination-plan-invites-homeles/",
+"urlToImage": "https://twt-thumbs.washtimes.com/media/image/2018/05/29/Starbucks_Training_28_s2048x1612.jpg?9d0445f7c97c766efaf6a98588e8268213fdb9ed",
+"publishedAt": "2018-05-30T01:57:27Z"
+},
+{
+  "newsID" : 12,
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Michael Sheetz",
+"title": "Richard Branson says Virgin Galactic is '2 or 3' flights away from taking people to space",
+"description": "Virgin Galactic's latest accomplishment leaves founder Richard Branson excited for the coming months of spaceflight.",
+"url": "https://www.cnbc.com/2018/05/29/richard-branson-virgin-galactic-is-2-or-3-flights-away-from-space.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/05/29/105237486-SS2_Reveal-JackBrockway-981.1910x1000.jpg",
+"publishedAt": "2018-05-29T22:24:00Z"
+},
+{
+  "newsID" : 13,
+"source": {
+"id": null,
+"name": "Latimes.com"
+},
+"author": "Brittny Mejia",
+"title": "Tesla in Autopilot mode crashes into parked Laguna Beach police cruiser",
+"description": "A Tesla sedan in \"autopilot\" mode struck a parked Laguna Beach Police Department vehicle on Tuesday morning, authorities said.",
+"url": "http://www.latimes.com/local/lanow/la-me-ln-tesla-collision-20180529-story.html",
+"urlToImage": "/pb/resources/assets/img/fallback-promo-image.png?token=false",
+"publishedAt": "2018-05-29T21:55:05Z"
+},
+{
+  "newsID" : 14,
+"source": {
+"id": "the-new-york-times",
+"name": "The New York Times"
+},
+"author": "http://www.nytimes.com/by/rachel-abrams, https://www.nytimes.com/by/tiffany-hsu, http://www.nytimes.com/by/john-eligon",
+"title": "Starbucks's Tall Order: Tackle Systemic Racism in 4 Hours",
+"description": "The coffee chain closed its U.S. stores for several hours to improve its image after the arrests of two black men at a store in Philadelphia brought heavy criticism.",
+"url": "https://www.nytimes.com/2018/05/29/business/starbucks-closing-racial-bias-training.html",
+"urlToImage": "https://static01.nyt.com/images/2018/05/30/business/30starbucks-sub/30starbucks-sub-facebookJumbo.jpg",
+"publishedAt": "2018-05-29T21:31:55Z"
+},
+{
+  "newsID" : 15,
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Gary Gastelu",
+"title": "Digital license plates that change displays and track your car being tested in California",
+"description": "Hit tech tags for high end consumers.",
+"url": "http://www.foxnews.com/auto/2018/05/29/digital-license-plates-that-change-displays-and-track-your-car-being-tested-in-california.html",
+"urlToImage": "http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/05/29/0/0/694940094001_5791042339001_5791027383001-vs.jpg?ve=1",
+"publishedAt": "2018-05-29T21:28:43Z"
+},
+{
+  "newsID" : 16,
+"source": {
+"id": null,
+"name": "Today.com"
+},
+"author": "Erica Chayes Wida",
+"title": "Employees at this Chick-fil-A will soon make more than some teachers",
+"description": "Wages at one California Chick-fil-A will soon surpass a lot of salaries, including educators, healthcare professionals and more.",
+"url": "https://www.today.com/food/chick-fil-california-raises-wages-18-hour-t129917",
+"urlToImage": "https://media1.s-nbcnews.com/i/newscms/2017_29/1229066/chic-fil-a-family-meals-today-tease-170717_ebe96a1dde0d57bc68d28dbfc84bd86a.jpg",
+"publishedAt": "2018-05-29T20:30:38Z"
+},
+{
+  "newsID" : 17,
+"source": {
+"id": "the-wall-street-journal",
+"name": "The Wall Street Journal"
+},
+"author": "Robert McMillan",
+"title": "Canadian Hacker Gets Five-Year Sentence Following 2014 Yahoo Breach",
+"description": "Canadian Karim Baratov was sentenced to five years in prison over charges stemming from the massive 2014 security breach at Yahoo, a campaign federal authorities have alleged was orchestrated by Russian spies.",
+"url": "https://www.wsj.com/articles/canadian-hacker-gets-five-year-sentence-following-2014-yahoo-breach-1527620417",
+"urlToImage": "https://images.wsj.net/im-12340/social",
+"publishedAt": "2018-05-29T19:04:36Z"
+},
+{
+  "newsID" : 18,
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Jordan Novet",
+"title": "Microsoft is now more valuable than Alphabet — by about $10 billion",
+"description": "Google first surpassed Microsoft in market cap in 2012 but the two have flip-flopped several times since.",
+"url": "https://www.cnbc.com/2018/05/29/microsoft-passes-alphabet-by-market-cap.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/10/16/102094427-20141015--794.1910x1000.jpg",
+"publishedAt": "2018-05-29T18:45:20Z"
+},
+{
+  "newsID" : 19,
+"source": {
+"id": "the-wall-street-journal",
+"name": "The Wall Street Journal"
+},
+"author": "Austen Hufford",
+"title": "Allergan Recalls Taytulla Birth-Control Packs After Pills Placed Out of Order",
+"description": "Allergan is recalling nearly 170,000 sample packs of its birth-control treatment Taytulla after placebo and active capsules were placed out of order, potentially raising the risk of an unintended pregnancy.",
+"url": "https://www.wsj.com/articles/allergan-recalls-taytulla-birth-control-packs-after-pills-placed-out-of-order-1527609551",
+"urlToImage": "https://images.wsj.net/im-12316/social",
+"publishedAt": "2018-05-29T16:01:15Z"
+},
+{
+  "newsID" : 20,
+"source": {
+"id": "the-wall-street-journal",
+"name": "The Wall Street Journal"
+},
+"author": "Austen Hufford",
+"title": "MGM Resorts to Buy New York Casino for About $605 Million",
+"description": "MGM will acquire the Empire City Casino in Yonkers from the Rooney family, which has owned the operation for more than four decades.",
+"url": "https://www.wsj.com/articles/mgm-resorts-to-buy-new-york-casino-for-about-605-million-1527604347",
+"urlToImage": "https://images.wsj.net/im-12300/social",
+"publishedAt": "2018-05-29T14:33:13Z"
+}
+]
+}

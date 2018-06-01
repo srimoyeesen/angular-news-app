@@ -1,0 +1,19 @@
+<div class="container" (click)="onNewsClick(newsItem)">
+    <div class="well">
+        <div class="media">
+          <a class="pull-left" href="#">
+          <img class="media-object" src={{newsItem.urlToImage}} height=100px width=100px>
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">{{newsItem.title}}</h4>
+            <span class="badge">{{newsItem.author}}</span>
+            <p>{{newsItem.description}}</p>
+            <ul class="list-inline list-unstyled">
+          <li ><span class="glyphicon glyphicon-calendar"></span><span [dateFormatter]="newsItem.publishedAt" > {{newsItem.publishedAt}} </span></li>
+        </ul>
+         </div>
+      </div>
+    </div>
+
+  </div>
+

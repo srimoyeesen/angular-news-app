@@ -1,0 +1,13 @@
+{
+  "details" : [
+    {
+"newsID" : 1,
+"author": "Mike Bird",
+"title": "Europe Markets Steady Amid Political, Trade Tensions",
+"description": "European stocks were little changed in morning trading, following a selloff in Asia driven by Italy’s unfolding political drama and heightened global trade tensions.",
+"url": "https://www.wsj.com/articles/europe-markets-pause-amid-political-trade-tensions-1527665278",
+"urlToImage": ["https://images.wsj.net/im-12418/social","https://images.wsj.net/im-12418/social","https://images.wsj.net/im-12418/social"],
+"publishedAt": "2018-05-30T10:10:22Z"
+}
+  ]
+}

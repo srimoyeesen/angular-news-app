@@ -1,0 +1,5 @@
+<div class = "list-group">
+ <ul *ngFor="let news of newsList">
+    <app-news-item [newsItem]="news" (newsClickEvent) = "onClickNews($event)"></app-news-item>
+</ul>
+</div>
