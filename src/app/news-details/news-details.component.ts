@@ -17,7 +17,7 @@ export class NewsDetailsComponent implements OnInit {
   constructor(private _route: ActivatedRoute, private _newsService: NewsService) { }
 
   ngOnInit() {
-    setTimeout(this.newsDetailsList = this._newsService.getNewsDetails(), 10000);
+    this.newsDetailsList = this._newsService.getNewsDetails();
     console.log(this.newsDetailsList);
     this.newsId = this._route.snapshot.params['id'];
   }
