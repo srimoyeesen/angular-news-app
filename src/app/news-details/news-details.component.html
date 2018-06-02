@@ -1,6 +1,8 @@
 <div id="carousel-id"><app-carousel [imageURlList]= "ImageUrlList"></app-carousel>
 </div>
+<div id = "news-details">
   <h3>{{selectedNews.title}}<br>
       <span class="badge">{{publishedAt}}</span>
   </h3>
-{{selectedNews.description}}
+<p id="desc">{{selectedNews.description}}</p>
+</div>

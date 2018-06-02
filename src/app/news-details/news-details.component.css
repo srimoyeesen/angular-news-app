@@ -1,5 +1,14 @@
 @media screen and (max-width: 768px) {
   h3{
       font-size:20px;
-  }
+
+    }
+}
+
+#news-details{
+  padding-left: 2%;
+}
+
+#desc{
+  width: 800px;
 }
