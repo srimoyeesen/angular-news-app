@@ -1,9 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs';
 
 
 @Injectable()
 export class NewsService {
+  selectedNews;
   newsDetailsList;
 
   constructor(private _http: Http) { }
@@ -14,10 +16,6 @@ export class NewsService {
   }
 
   getNewsDetails() {
-    this._http.get('../assets/news-details.json').subscribe(resNews => {
-      this.newsDetailsList = resNews.json()['details'];
-      return this.newsDetailsList;
-    });
-
+    return this._http.get('../assets/news-details.json');
   }
 }

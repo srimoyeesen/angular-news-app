@@ -1,3 +1,20 @@
 li:hover{
   cursor: pointer;
  }
+.well {
+  width: 70%;
+  margin: 0 auto;
+}
+p { margin:0 }
+
+.media-heading {
+  margin-bottom: 8px;
+}
+
+.badge {
+  margin-bottom: 10px;
+}
+
+.glyphicon-calendar {
+  padding-right: 5px;
+}

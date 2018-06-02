@@ -1,6 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input , AfterViewInit} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NewsService } from '../news.service';
+import * as _ from 'underscore';
+import * as moment from 'moment';
 
 
 @Component({
@@ -8,19 +10,32 @@ import { NewsService } from '../news.service';
   templateUrl: './news-details.component.html',
   styleUrls: ['./news-details.component.css']
 })
-export class NewsDetailsComponent implements OnInit {
+export class NewsDetailsComponent implements OnInit, AfterViewInit {
 
   newsId: Number;
   newsDetailsList;
   selectedNews;
+  ImageUrlList;
+  publishedAt;
 
   constructor(private _route: ActivatedRoute, private _newsService: NewsService) { }
 
   ngOnInit() {
-    this.newsDetailsList = this._newsService.getNewsDetails();
-    console.log(this.newsDetailsList);
     this.newsId = this._route.snapshot.params['id'];
+    let id = this.newsId;
+    // this.newsDetailsList = this._newsService.getNewsDetails();
+    this._newsService.getNewsDetails()
+       .subscribe(resNews => {
+         this.newsDetailsList = resNews.json()['details'];
+        this.selectedNews = this.newsDetailsList.find(function(data) {
+          return data.newsID === id;
+        });
+        this.ImageUrlList = this.selectedNews.urlToImage;
+        this.publishedAt = moment(this.selectedNews.publishedAt).format('MMMM Do YYYY, h:mm:ss a');
+      });
   }
 
+  ngAfterViewInit(): void {
+  }
 
 }

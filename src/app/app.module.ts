@@ -11,6 +11,7 @@ import { NewsItemComponent } from './news-item/news-item.component';
 import { NewsDetailsComponent } from './news-details/news-details.component';
 
 import { DateFormatterDirective } from './app.dateFormatter';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { DateFormatterDirective } from './app.dateFormatter';
     HomeComponent,
     NewsItemComponent,
     NewsDetailsComponent,
-    DateFormatterDirective
+    DateFormatterDirective,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

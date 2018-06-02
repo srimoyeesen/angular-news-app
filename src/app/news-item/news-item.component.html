@@ -1,19 +1,23 @@
 <div class="container" (click)="onNewsClick(newsItem)">
-    <div class="well">
-        <div class="media">
-          <a class="pull-left" href="#">
-          <img class="media-object" src={{newsItem.urlToImage}} height=100px width=100px>
-        </a>
-        <div class="media-body">
-          <h4 class="media-heading">{{newsItem.title}}</h4>
-            <span class="badge">{{newsItem.author}}</span>
-            <p>{{newsItem.description}}</p>
-            <ul class="list-inline list-unstyled">
-          <li ><span class="glyphicon glyphicon-calendar"></span><span [dateFormatter]="newsItem.publishedAt" > {{newsItem.publishedAt}} </span></li>
-        </ul>
-         </div>
-      </div>
-    </div>
-
-  </div>
+  <div class="row vertical-center-row">
+   <div class="well">
+       <div class="media">
+         <a class="pull-left" >
+         <img class="media-object" src={{newsItem.urlToImage}} height=100px width=100px>
+       </a>
+       <div class="media-body">
+         <h4 class="media-heading">{{newsItem.title}}</h4>
+           <p class="badge">{{newsItem.author}}</p>
+           <p class="description">{{truncatedDescription.substring(0,50)}}</p>
+           <p class="description" *ngIf="truncatedDescription.substring(50, 100)">{{truncatedDescription.substring(50,100)}}</p>
+           <p class="description" *ngIf="truncatedDescription.substring(100, 150)">{{truncatedDescription.substring(100,150)}}...</p>
+           <ul class="list-inline list-unstyled">
+           <br/>
+         <li ><span class="glyphicon glyphicon-calendar"></span> <span [dateFormatter]="newsItem.publishedAt" > {{newsItem.publishedAt}} </span></li>
+       </ul>
+        </div>
+     </div>
+   </div>
+ </div>
+ </div>
 
